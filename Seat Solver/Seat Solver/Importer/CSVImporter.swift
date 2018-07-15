@@ -8,3 +8,13 @@
 //
 
 import Foundation
+
+struct CSVImporter {
+    static func urlForFile(named filename: String, bundle: Bundle) -> URL? {
+        return nil
+    }
+    
+//    static func extractData(from fileName: String, bundle: Bundle) -> Data {
+//
+//    }
+}
