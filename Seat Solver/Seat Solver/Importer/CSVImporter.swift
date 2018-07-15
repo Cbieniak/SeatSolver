@@ -10,8 +10,8 @@
 import Foundation
 
 struct CSVImporter {
-    static func urlForFile(named filename: String, bundle: Bundle) -> URL? {
-        return nil
+    static func urlForCSVFile(named filename: String, bundle: Bundle) -> URL? {
+        return bundle.url(forResource: filename, withExtension: "csv")
     }
     
 //    static func extractData(from fileName: String, bundle: Bundle) -> Data {

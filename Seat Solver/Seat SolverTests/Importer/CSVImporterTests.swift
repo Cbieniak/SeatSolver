@@ -12,6 +12,6 @@ import XCTest
 class CSVImporterTests: XCTestCase {
     
     func testItRetrievesTheCorrectURL() {
-        XCTAssertNotNil(CSVImporter.urlForFile(named: "DemoData.csv", bundle: Bundle(for: self.classForCoder)))
+        XCTAssertNotNil(CSVImporter.urlForCSVFile(named: "DemoData", bundle: Bundle(for: self.classForCoder)))
     }
 }
