@@ -14,6 +14,7 @@
 		AA76747520FB6D5C004EE181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA76746A20FB6D5C004EE181 /* Main.storyboard */; };
 		AA76747620FB6D5C004EE181 /* Seat_Solver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA76746D20FB6D5C004EE181 /* Seat_Solver.xcdatamodeld */; };
 		AA76747720FB6D5C004EE181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76747020FB6D5C004EE181 /* AppDelegate.swift */; };
+		AA76747B20FB6EFE004EE181 /* DemoData.csv in Resources */ = {isa = PBXBuildFile; fileRef = AA76747A20FB6EFE004EE181 /* DemoData.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		AA76746E20FB6D5C004EE181 /* Seat_Solver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seat_Solver.xcdatamodel; sourceTree = "<group>"; };
 		AA76747020FB6D5C004EE181 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA76747120FB6D5C004EE181 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA76747A20FB6EFE004EE181 /* DemoData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DemoData.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		AA76746420FB6D5C004EE181 /* Seat Solver */ = {
 			isa = PBXGroup;
 			children = (
+				AA76747920FB6EFE004EE181 /* Mock */,
 				AA76746520FB6D5C004EE181 /* ViewController.swift */,
 				AA76746620FB6D5C004EE181 /* Resources */,
 				AA76746820FB6D5C004EE181 /* LaunchScreen.storyboard */,
@@ -121,6 +124,14 @@
 				AA76747120FB6D5C004EE181 /* Info.plist */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		AA76747920FB6EFE004EE181 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				AA76747A20FB6EFE004EE181 /* DemoData.csv */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA76747520FB6D5C004EE181 /* Main.storyboard in Resources */,
+				AA76747B20FB6EFE004EE181 /* DemoData.csv in Resources */,
 				AA76747320FB6D5C004EE181 /* Assets.xcassets in Resources */,
 				AA76747420FB6D5C004EE181 /* LaunchScreen.storyboard in Resources */,
 			);
