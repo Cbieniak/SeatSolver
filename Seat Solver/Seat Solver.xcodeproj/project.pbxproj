@@ -15,6 +15,7 @@
 		AA76747620FB6D5C004EE181 /* Seat_Solver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA76746D20FB6D5C004EE181 /* Seat_Solver.xcdatamodeld */; };
 		AA76747720FB6D5C004EE181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76747020FB6D5C004EE181 /* AppDelegate.swift */; };
 		AA76747B20FB6EFE004EE181 /* DemoData.csv in Resources */ = {isa = PBXBuildFile; fileRef = AA76747A20FB6EFE004EE181 /* DemoData.csv */; };
+		AA76747E20FB6FC7004EE181 /* CSVImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76747D20FB6FC7004EE181 /* CSVImporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		AA76747020FB6D5C004EE181 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA76747120FB6D5C004EE181 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA76747A20FB6EFE004EE181 /* DemoData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DemoData.csv; sourceTree = "<group>"; };
+		AA76747D20FB6FC7004EE181 /* CSVImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVImporter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		AA76746420FB6D5C004EE181 /* Seat Solver */ = {
 			isa = PBXGroup;
 			children = (
+				AA76747C20FB6FB9004EE181 /* Importer */,
 				AA76747920FB6EFE004EE181 /* Mock */,
 				AA76746520FB6D5C004EE181 /* ViewController.swift */,
 				AA76746620FB6D5C004EE181 /* Resources */,
@@ -132,6 +135,14 @@
 				AA76747A20FB6EFE004EE181 /* DemoData.csv */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		AA76747C20FB6FB9004EE181 /* Importer */ = {
+			isa = PBXGroup;
+			children = (
+				AA76747D20FB6FC7004EE181 /* CSVImporter.swift */,
+			);
+			path = Importer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 			files = (
 				AA76747720FB6D5C004EE181 /* AppDelegate.swift in Sources */,
 				AA76747220FB6D5C004EE181 /* ViewController.swift in Sources */,
+				AA76747E20FB6FC7004EE181 /* CSVImporter.swift in Sources */,
 				AA76747620FB6D5C004EE181 /* Seat_Solver.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
