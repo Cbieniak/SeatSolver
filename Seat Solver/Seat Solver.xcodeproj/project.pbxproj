@@ -16,6 +16,7 @@
 		AA76747720FB6D5C004EE181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76747020FB6D5C004EE181 /* AppDelegate.swift */; };
 		AA76747B20FB6EFE004EE181 /* DemoData.csv in Resources */ = {isa = PBXBuildFile; fileRef = AA76747A20FB6EFE004EE181 /* DemoData.csv */; };
 		AA76747E20FB6FC7004EE181 /* CSVImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76747D20FB6FC7004EE181 /* CSVImporter.swift */; };
+		AA76748120FB7028004EE181 /* CSVImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76748020FB7028004EE181 /* CSVImporterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		AA76747120FB6D5C004EE181 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA76747A20FB6EFE004EE181 /* DemoData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DemoData.csv; sourceTree = "<group>"; };
 		AA76747D20FB6FC7004EE181 /* CSVImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVImporter.swift; sourceTree = "<group>"; };
+		AA76748020FB7028004EE181 /* CSVImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVImporterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		AA76745820FB6D1A004EE181 /* Seat SolverTests */ = {
 			isa = PBXGroup;
 			children = (
+				AA76747F20FB7015004EE181 /* Importer */,
 				AA76745920FB6D1A004EE181 /* Seat_SolverTests.swift */,
 				AA76745B20FB6D1A004EE181 /* Info.plist */,
 			);
@@ -141,6 +144,14 @@
 			isa = PBXGroup;
 			children = (
 				AA76747D20FB6FC7004EE181 /* CSVImporter.swift */,
+			);
+			path = Importer;
+			sourceTree = "<group>";
+		};
+		AA76747F20FB7015004EE181 /* Importer */ = {
+			isa = PBXGroup;
+			children = (
+				AA76748020FB7028004EE181 /* CSVImporterTests.swift */,
 			);
 			path = Importer;
 			sourceTree = "<group>";
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA76748120FB7028004EE181 /* CSVImporterTests.swift in Sources */,
 				AA76745A20FB6D1A004EE181 /* Seat_SolverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
